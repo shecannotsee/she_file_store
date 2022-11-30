@@ -13,13 +13,6 @@ get_filename_component(a_demo ${CMAKE_SOURCE_DIR} DIRECTORY)
 message(STATUS "a_demo's path:${a_demo}")
 
 #############################################################
-#set(Opencv_DIR ${opencv}/build)
-#find_package(OpenCV REQUIRED PATHS ${Opencv_DIR})
-#if(Opencv_FOUND)
-#    message(STATUS "The Opecv lib is found!")
-#endif()
-
-#############################################################
 
 # include
 include_directories(
